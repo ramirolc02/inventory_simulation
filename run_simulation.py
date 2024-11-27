@@ -45,7 +45,7 @@ def main():
     print(f"Customer Satisfaction Rate: {stats['satisfied_customers_ratio']*100:.1f}%")
     print("\nStock-out Time Percentage:")
     for prod, percentage in stats['stockout_time'].items():
-        print(f"{prod}: {percentage:.1f}%")
+        print(f"{prod}: {percentage:.2f}%")
 
 if __name__ == "__main__":
     main() 
