@@ -11,19 +11,19 @@ This simulation analyzes a warehouse management system over a 5-month period to 
 The system manages two products with an initial inventory level of 70 units each, implementing periodic reordering policies and handling variable customer demand.
 
 ## Project Structure
-
-inventory_simulation/
-├── inventory_system/ # Core package
-│ ├── init.py
-│ ├── config.py # Configuration classes
-│ ├── events.py # Event system
-│ ├── main.py # Simulation engine
-│ ├── models.py # Product logic
-│ └── visualization.py # Plotting utilities
-├── inventory-evolution/ # Generated plots
-├── run_simulation.py # Main script
-└── requirements.txt # Dependencies
-
+```
+inventory_simulation/                   # Root project directory
+    ├── inventory_system/               # Core package containing main logic
+    │   ├── __init__.py                 # Package initialization
+    │   ├── config.py                   # Configuration management
+    │   ├── events.py                   # Event handling system
+    │   ├── main.py                     # Primary simulation engine
+    │   ├── models.py                   # Product and inventory models
+    │   └── visualization.py            # Data visualization utilities
+    ├── inventory-evolution/            # Directory for generated plot images
+    ├── run_simulation.py               # Main script to launch simulation
+    └── requirements.txt                # Project dependencies list
+```
 ## Installation
 
 1. Clone the repository:
